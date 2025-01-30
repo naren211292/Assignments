@@ -25,9 +25,13 @@ public class EmpGroups {
 		 
 	     System.out.println("Employee Details:");
 	     
-	     //printing Employee's names along with their IDs.
+	    //printing Employee1 name and Id.
 	     System.out.println("Employee Name: " + employeeNames[0]+ ", Employee ID :" + employeeIds[0]);
+	     
+	   //printing Employee1 name and Id.
 	     System.out.println("Employee Name: " + employeeNames[1]+ ", Employee ID :" + employeeIds[1]);
+	     
+	   //printing Employee1 name and Id.
 	     System.out.println("Employee Name: " + employeeNames[2]+ ", Employee ID :" + employeeIds[2]);
 
 }
