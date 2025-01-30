@@ -1,32 +1,23 @@
 package com.assignments;
 
 public class Employees {
+    //This is a parent class
+	
+	
+	//Storing Employee Names as String in separate variables
+	 String empname1 = "Bharath";
+     String empname2 = "ABC";
+     String empname3 = "XYZ";
 
+   //Storing Employee Ids as Integer in separate variables
+     int empId1 = 1234;
+     int empId2 = 1235;
+     int empId3 = 1236;
+     
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 String emp1Name = "Bharath";
-	     String emp2Name = "ABC";
-	     String emp3Name = "XYZ";
-
-	     int emp1ID = 1234;
-	     int emp2ID = 1235;
-	     int emp3ID = 1236;
-	     
-
-	}
-	
-	 public String[] getEmployeeNames() {
-		 String emp1Name = "Bharath";
-	     String emp2Name = "ABC";
-	     String emp3Name = "XYZ";
-			return new String[]{emp1Name, emp2Name, emp3Name};
-	    }
-
-	    public int[] getEmployeeIDs() {
-	    	 int emp1ID = 1234;
-		     int emp2ID = 1235;
-		     int emp3ID = 1236;
-	        return new int[]{emp1ID, emp2ID, emp3ID};
+		
 	    }
 
 }
