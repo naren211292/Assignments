@@ -19,27 +19,23 @@ public class ConditionalStatements {
     	  
     	  System.out.println("Dear '" + name + "', additional checks are required for your loan approval");
     	  
-    	  //Nested loop - if condition to check whether the salary is enough to consider the loan
-    	  if(income>=50000) {
-    		  
-    		  //Nested loop - if condition to check whether the person is employed or not
-    		  if(isEmployed = true) {
+    	  //if condition to check whether the salary is enough and person is employed
+    	  if(income>=50000 && isEmployed == true) {
     			  
-    			  //Nested loop - if condition to check whether the DebtToRatio is less than 40
+    			  // if condition to check whether the DebtToRatio is less than 40
     			  if(debtToIncomeRatio <40) {
     				  System.out.println("Dear '" + name + "', after all the checks your loan is approved");
     			  }else {
     				  System.out.println("Loan is denied");
     			  }
-    		  } else {
-    			  System.out.println("Dear '" + name + "', your Loan is denied");
+    		
     		  }
-    	  }else {
-    		  System.out.println("Dear '" + name + "', your Loan is denied");
     	  }
-      }else {
+    	  else {
     	  System.out.println("Dear '" + name + "', your Loan is denied");
+    	  }
+      
       }
-	}
-
 }
+
+

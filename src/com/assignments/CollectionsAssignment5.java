@@ -60,7 +60,7 @@ public class CollectionsAssignment5 {
 		
 		//Creating an array of 10 random integers
 		
-		int [] randomNumbers = new int[10];
+		//int [] randomNumbers = new int[10];
 		
 		int [] var = new int [] { 1, 2, 4, 5, 6, 7,6, 12, 34,10 };
 		System.out.println(var[2] + var [4] );
@@ -78,7 +78,7 @@ public class CollectionsAssignment5 {
 		
 		int sum = randomNumbers[2] + randomNumbers[4]; */
 
-		System.out.println("Sum of 3rd and 5th number in the integer array is : " + var[2] + var [4]);
+		//System.out.println("Sum of 3rd and 5th number in the integer array is : " + var[2] + var [4]);
 		
 		 //Created LinkedList of top 5 highest crossing movies 
 		List<String> top5HighestCrossMovies = new LinkedList<String>();
